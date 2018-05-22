@@ -1,0 +1,32 @@
+#visualization{
+    background-color: black;
+    position: relative;
+    height:260px;
+    width:100%;
+}
+
+
+#frequencybars > div {
+    width: 1.25%;
+    background-color: rgb(0, 255, 64);
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+}
+
+#timebars > div {
+    width: .79%;
+    background-color: rgb(0, 255, 64);
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+#audio {
+position: relative;
+left: calc(50% - 150px);
+}

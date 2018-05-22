@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='./index.js' defer></script>
+    <link href='index.css' rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+    <label>Select the kind of data you want to see</label>
+    <select id='dataType' name='data'>
+        <option value='time'>time</option>
+        <option value='frequency'>frequency</option>
+    </select>
+   <input type='file' accept="audio" id='audio_file' ></input>
+   <div id = 'visualization'>
+       <audio id='audio' autoplay='true' controls='true'></audio>
+       <div id='frequencybars'  class='hidden'></div>
+       <div id='timebars'></div>
+   </div>
+</body>
+</html>
